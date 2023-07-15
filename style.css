@@ -348,10 +348,20 @@ form button {
   padding-bottom: 3vw;
 }
 
-.developer {
+.footer {
   background-color: #663399;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
   padding: 10px;
-  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.developer {
+  padding: 10px;
   font-size: 15px;
   font-weight: 600;
 }
@@ -375,6 +385,14 @@ form button {
     text-decoration: none;
     margin: 1vw;
     color: #222222;
+  }
+
+  .copyright {
+    font-size: 9px;
+  }
+
+  .developer {
+    font-size: 9px;
   }
 }
 
