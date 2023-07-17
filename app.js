@@ -61,7 +61,7 @@ const formMessage = document.querySelector(".formMessage");
 const sendEmail = (e) => {
   e.preventDefault();
   Email.send({
-    SecureToken: "c71df6f6-d8d0-42be-955e-9f9537c0c838",
+    SecureToken: "9e4548c7-5dd4-47cc-9301-4596c8e4d2c1",
     To: "rajatrajemails@gmail.com",
     From: formEmail.value,
     Subject: "New message from Portfolio",
@@ -72,7 +72,7 @@ const sendEmail = (e) => {
       formEmail.value +
       "<br/> Message: " +
       formMessage.value,
-  }).then((message) => alert("Thank you :)"));
+  }).then((message) => alert(`Thank you :)`));
   contactForm.reset();
 };
 

@@ -302,25 +302,31 @@ body {
 }
 
 form {
-  background: transparent;
+  background: #333333;
   display: flex;
+  border-radius: 6px;
   flex: 3;
   flex-direction: column;
-  padding: 0vw 4vw;
+  padding: 3.6vw 4vw;
+  margin-right: 11vw;
+  opacity: 0.9;
 }
 
 form input,
 form textarea {
-  border: 1px solid #663399;
-  border-radius: 5px;
-  margin: 10px 0px;
+  border: none;
+  border-bottom: 3px solid #111111;
   padding: 20px;
   outline: none;
   font-size: 18px;
-  color: #666666;
+  color: #999999;
   font-weight: 600;
-  background-color: #111111;
-  opacity: 0.6;
+  background: transparent;
+}
+
+form input:hover,
+form textarea:hover {
+  border-bottom: 3px solid #663399;
 }
 
 form button {
@@ -385,6 +391,10 @@ form button {
     text-decoration: none;
     margin: 1vw;
     color: #222222;
+  }
+
+  form {
+    margin-right: 0;
   }
 
   .copyright {
