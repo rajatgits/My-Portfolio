@@ -143,7 +143,7 @@ body {
 }
 
 .projectTitle {
-  font-size: 7vw;
+  font-size: 6vw;
   color: #555555;
 }
 
@@ -197,7 +197,6 @@ body {
   top: 18px;
   left: 68px;
   overflow: scroll;
-  background-color: aqua;
 }
 
 .laptopScreen::-webkit-scrollbar {
