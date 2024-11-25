@@ -117,8 +117,7 @@ body {
 
 .phoneScreen {
   width: 264px;
-  height: 567px;
-  background-color: green;
+  height: 573px;
   position: absolute;
   top: 17px;
   left: 18px;
@@ -191,11 +190,11 @@ body {
 }
 
 .laptopScreen {
-  width: 451px;
-  height: 283px;
+  width: 450px;
+  height: 280px;
   position: absolute;
   top: 18px;
-  left: 68px;
+  left: 70px;
   overflow: scroll;
 }
 
